@@ -1,5 +1,12 @@
 # SEEKER changelog
 
+## 0.4.0-beta.8 (2026-10-07)
+
+Gmail sign-in and Mac install fixes (replaces 0.4.0-beta.7, which was withdrawn before release).
+
+- Gmail now always signs in as SEEKER by ACAS Tools. A mailbox connected in an early beta with your own Google client file shows "Reconnect needed": choose Connect Google once.
+- The Mac app is self-signed, so macOS no longer reports it as damaged. Approve the first launch with right-click > Open or System Settings > Privacy & Security > Open Anyway.
+
 ## 0.4.0-beta.7 (2026-10-07)
 
 Gmail sign-in and Mac install fixes.
