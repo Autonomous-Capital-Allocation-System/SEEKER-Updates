@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "product": "SEEKER",
+  "latestVersion": "0.4.0-beta.6",
+  "minimumSupportedVersion": "0.4.0-beta.6",
+  "releaseNotes": "Safety, sign-in and update fixes.\n\n- Install this build by hand once on Mac and Windows: it uses a new update key. Later builds arrive through Check for updates.\n- Gmail now signs in through SEEKER by ACAS Tools. Reconnect each Gmail mailbox once after installing.\n- iCloud replies are saved in your iCloud Sent folder, and SEEKER never answers the same email twice.\n- SEEKER no longer replaces saved mailbox logins it cannot open; it explains how to fix the problem instead.\n- Start-up errors show the real reason; SEEKER always restarts cleanly on Windows.\n- Listing, Gmail and help links open in your browser.\n- iPhone: empty starting profile, no lost edits during sync, no false \"interrupted\" sends, dismissed items cannot be sent, accented subjects display correctly.",
+  "releaseNotesUrl": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/tag/v0.4.0-beta.6",
+  "assets": {
+    "mac-arm64": {
+      "filename": "SEEKER-0.4.0-beta.6-arm64.dmg",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.6/SEEKER-0.4.0-beta.6-arm64.dmg",
+      "sha256": "13f972ce32e65e19a8756a6ccef25bf4be50270c4f5dd7e9175834c5c113bddf"
+    },
+    "mac-x64": {
+      "filename": "SEEKER-0.4.0-beta.6-x64.dmg",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.6/SEEKER-0.4.0-beta.6-x64.dmg",
+      "sha256": "0489ff5392de91d4c503a73eaa37ddaf8107192438400205ae1bb233fdaa0b68"
+    },
+    "windows-x64": {
+      "filename": "SEEKER-0.4.0-beta.6-x64.exe",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.6/SEEKER-0.4.0-beta.6-x64.exe",
+      "sha256": "ada5cb1c88f334cd5117029075414cb45a931059edfe6dc5a0fc57ea64a61a72"
+    }
+  },
+  "signature": "pVDWV7m3EPBbvbALOnU2ONUQ5gv/DncESdHu2twO1jINeHrcjnF0Y0uZ2IJ0Np/7DN37c7N+ChoYMscmAL2OBA=="
+}
