@@ -1,5 +1,16 @@
 # SEEKER changelog
 
+## 0.4.0-beta.9 (2026-10-08)
+
+Conversation tracking: see what you replied to and who answered, without opening your mail app.
+
+- The inbox is organized by stage: To answer, Waiting, They replied, Closed, and Apply on website.
+- After each reply SEEKER confirms it in the sending mailbox's Sent folder ("In Gmail Sent" / "In iCloud Sent"), or warns you if it cannot find it.
+- Every Sync checks your replied conversations. Recruiter answers move to They replied, are marked New, and show inside SEEKER as a conversation.
+- Replies you send from Gmail, Mail, or Outlook are detected and tracked too.
+- Conversations with no answer for 21 days close automatically; a later reply reopens them.
+- Sync now works with only an iCloud mailbox connected.
+
 ## 0.4.0-beta.8 (2026-10-07)
 
 Gmail sign-in and Mac install fixes (replaces 0.4.0-beta.7, which was withdrawn before release).
