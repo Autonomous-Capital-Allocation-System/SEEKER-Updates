@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
   "product": "SEEKER",
-  "latestVersion": "0.4.0-beta.9",
+  "latestVersion": "0.4.0-beta.10",
   "minimumSupportedVersion": "0.4.0-beta.6",
-  "releaseNotes": "Conversation tracking: see what you replied to and who answered, without opening your mail app.\n\n- The inbox is organized by stage: To answer, Waiting, They replied, Closed, and Apply on website.\n- After each reply SEEKER confirms it in the sending mailbox's Sent folder (\"In Gmail Sent\" / \"In iCloud Sent\"), or warns you if it cannot find it.\n- Every Sync checks your replied conversations. Recruiter answers move to They replied, are marked New, and show inside SEEKER as a conversation.\n- Replies you send from Gmail, Mail, or Outlook are detected and tracked too.\n- Conversations with no answer for 21 days close automatically; a later reply reopens them.\n- Sync now works with only an iCloud mailbox connected.",
-  "releaseNotesUrl": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/tag/v0.4.0-beta.9",
+  "releaseNotes": "Reply rules: choose which emails get which reply, with which attachments.\n\n- New Reply rules page. Each rule: words to look for and to skip, mailbox, work arrangement, a saved response, the files to attach, and Ask me first or Auto-send. Rules run top to bottom; the first match wins.\n- Saved responses with fill-ins ({first_name}, {role}, {my_name}, {background}, {remote_question}, …) and a live preview.\n- Attachments (formerly Resume library) holds resumes and documents such as articles or case studies; a reply can carry up to five files, sent with their own names.\n- \"Test against the last 30 days\" shows which recent recruiter emails a rule would answer before you save it.\n- Your previous template, target words, resume, and automatic mode became your first rules, so nothing changes until you edit them.\n- Safety stops still apply to every rule: job alerts, existing conversations, interviews, and identity-document requests always wait for you.\n- iPhone: the app no longer zooms when you pinch or type in a field.",
+  "releaseNotesUrl": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/tag/v0.4.0-beta.10",
   "assets": {
     "mac-arm64": {
-      "filename": "SEEKER-0.4.0-beta.9-arm64.dmg",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.9/SEEKER-0.4.0-beta.9-arm64.dmg",
-      "sha256": "3b94cbf622682ca8f5d40b18de1ff4aeeaa43e3b3c8cce79ac02f66bcb6836ce"
+      "filename": "SEEKER-0.4.0-beta.10-arm64.dmg",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.10/SEEKER-0.4.0-beta.10-arm64.dmg",
+      "sha256": "b916256893de7ff1a4c6e3da08bbbcc250e76236767c6b0b601f1b3988827d52"
     },
     "mac-x64": {
-      "filename": "SEEKER-0.4.0-beta.9-x64.dmg",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.9/SEEKER-0.4.0-beta.9-x64.dmg",
-      "sha256": "8ad04299dad97fccd6954eec2b34559333855d8554e1d58da878d1bbce721941"
+      "filename": "SEEKER-0.4.0-beta.10-x64.dmg",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.10/SEEKER-0.4.0-beta.10-x64.dmg",
+      "sha256": "0c3820de5277268671d839ac050bf7955dbad60b2a61e69f7081f24ac91f2679"
     },
     "windows-x64": {
-      "filename": "SEEKER-0.4.0-beta.9-x64.exe",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.9/SEEKER-0.4.0-beta.9-x64.exe",
-      "sha256": "a75d31bb4bdb98a012de0c7e7d4f22697397a2f7447618b4559d46d61d29b955"
+      "filename": "SEEKER-0.4.0-beta.10-x64.exe",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.10/SEEKER-0.4.0-beta.10-x64.exe",
+      "sha256": "89e53c8f471f13d27a0f0ad7d157fb46fb9f996b987162ac6be928061c04e3af"
     }
   },
-  "signature": "qTy4/DRsgChGxnTraNOIe3PnxVzThwQP5VmdJpZEQ2skeiXcf4CGqfLgBBPAtUYDG1L5cez1t+mBvdPDGUgBDQ=="
+  "signature": "HnR1TArEV+R5ox4msspGvXwDRJkod+vhiKPyiOSdWtnAu0fOGb4GWVc99wUMVlEfohbnGLPq534rB2axV174Ag=="
 }
