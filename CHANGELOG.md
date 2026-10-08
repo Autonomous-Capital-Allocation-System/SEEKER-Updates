@@ -1,5 +1,14 @@
 # SEEKER changelog
 
+## 0.4.0-beta.12 (2026-10-08)
+
+Reply to recruiters from inside SEEKER.
+
+- When a recruiter answers, a Reply box appears under the conversation. Your reply goes out from the same mailbox in the same email thread; no need to open Gmail, Mail, or Outlook.
+- Before sending, SEEKER re-reads the thread and will not send if you already answered from your mail app. Each recruiter message can be answered once from SEEKER; a send that may have failed is never repeated automatically.
+- With AI on, "Draft reply with AI" reads the whole conversation. Facts only you know appear as notes like [add your availability], and Send stays disabled until you fill them in.
+- Attach files to a follow-up; follow-ups are confirmed in Sent at the next Sync.
+
 ## 0.4.0-beta.11 (2026-10-08)
 
 AI writing with your own key (optional).
