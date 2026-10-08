@@ -1,5 +1,17 @@
 # SEEKER changelog
 
+## 0.4.0-beta.10 (2026-10-08)
+
+Reply rules: choose which emails get which reply, with which attachments.
+
+- New Reply rules page. Each rule: words to look for and to skip, mailbox, work arrangement, a saved response, the files to attach, and Ask me first or Auto-send. Rules run top to bottom; the first match wins.
+- Saved responses with fill-ins ({first_name}, {role}, {my_name}, {background}, {remote_question}, …) and a live preview.
+- Attachments (formerly Resume library) holds resumes and documents such as articles or case studies; a reply can carry up to five files, sent with their own names.
+- "Test against the last 30 days" shows which recent recruiter emails a rule would answer before you save it.
+- Your previous template, target words, resume, and automatic mode became your first rules, so nothing changes until you edit them.
+- Safety stops still apply to every rule: job alerts, existing conversations, interviews, and identity-document requests always wait for you.
+- iPhone: the app no longer zooms when you pinch or type in a field.
+
 ## 0.4.0-beta.9 (2026-10-08)
 
 Conversation tracking: see what you replied to and who answered, without opening your mail app.
