@@ -1,5 +1,15 @@
 # SEEKER changelog
 
+## 0.4.0-beta.11 (2026-10-08)
+
+AI writing with your own key (optional).
+
+- Preferences > AI writing: connect Anthropic (Claude Sonnet 5.5 recommended), OpenAI, Google Gemini, OpenRouter, Groq, or a local model with Ollama or LM Studio. Test connection checks the key and model; Refresh model list shows what your account can use.
+- Reply rules can reply with AI-written text from your instructions and profile. AI-written replies always wait for your review (no auto-send).
+- Write with AI and Improve this draft (shorter, warmer, more formal, ask about rate and remote) in every reply.
+- Keys are encrypted on this computer, one per provider, shown only as their last four characters. The recruiter's email is treated as information only, and the AI uses only facts from your profile.
+- AI features run on Mac and Windows; iPhone support comes later.
+
 ## 0.4.0-beta.10 (2026-10-08)
 
 Reply rules: choose which emails get which reply, with which attachments.
