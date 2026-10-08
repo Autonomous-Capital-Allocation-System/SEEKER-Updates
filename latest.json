@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
   "product": "SEEKER",
-  "latestVersion": "0.4.0-beta.11",
+  "latestVersion": "0.4.0-beta.12",
   "minimumSupportedVersion": "0.4.0-beta.6",
-  "releaseNotes": "AI writing with your own key (optional).\n\n- Preferences > AI writing: connect Anthropic (Claude Sonnet 5.5 recommended), OpenAI, Google Gemini, OpenRouter, Groq, or a local model with Ollama or LM Studio. Test connection checks the key and model; Refresh model list shows what your account can use.\n- Reply rules can reply with AI-written text from your instructions and profile. AI-written replies always wait for your review (no auto-send).\n- Write with AI and Improve this draft (shorter, warmer, more formal, ask about rate and remote) in every reply.\n- Keys are encrypted on this computer, one per provider, shown only as their last four characters. The recruiter's email is treated as information only, and the AI uses only facts from your profile.\n- AI features run on Mac and Windows; iPhone support comes later.",
-  "releaseNotesUrl": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/tag/v0.4.0-beta.11",
+  "releaseNotes": "Reply to recruiters from inside SEEKER.\n\n- When a recruiter answers, a Reply box appears under the conversation. Your reply goes out from the same mailbox in the same email thread; no need to open Gmail, Mail, or Outlook.\n- Before sending, SEEKER re-reads the thread and will not send if you already answered from your mail app. Each recruiter message can be answered once from SEEKER; a send that may have failed is never repeated automatically.\n- With AI on, \"Draft reply with AI\" reads the whole conversation. Facts only you know appear as notes like [add your availability], and Send stays disabled until you fill them in.\n- Attach files to a follow-up; follow-ups are confirmed in Sent at the next Sync.",
+  "releaseNotesUrl": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/tag/v0.4.0-beta.12",
   "assets": {
     "mac-arm64": {
-      "filename": "SEEKER-0.4.0-beta.11-arm64.dmg",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.11/SEEKER-0.4.0-beta.11-arm64.dmg",
-      "sha256": "4b37ae10b2754df1495652f4dd7e0074177ef6352b130c778b65d521b13c4324"
+      "filename": "SEEKER-0.4.0-beta.12-arm64.dmg",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.12/SEEKER-0.4.0-beta.12-arm64.dmg",
+      "sha256": "fe5d0e15800085a123796235d761014e5ec5f2ae0d2385a1d6c1a3247613d151"
     },
     "mac-x64": {
-      "filename": "SEEKER-0.4.0-beta.11-x64.dmg",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.11/SEEKER-0.4.0-beta.11-x64.dmg",
-      "sha256": "aba64ade02daade775038b998a0bb8e9914ae29e65179b78fc015a5064a8c1ec"
+      "filename": "SEEKER-0.4.0-beta.12-x64.dmg",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.12/SEEKER-0.4.0-beta.12-x64.dmg",
+      "sha256": "306cef3b5407838bb38a73e3565bb57c1b090b5b5992d8fad769219d073ae5cd"
     },
     "windows-x64": {
-      "filename": "SEEKER-0.4.0-beta.11-x64.exe",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.11/SEEKER-0.4.0-beta.11-x64.exe",
-      "sha256": "34e9c35c4f78b186ab26ae05dbe421c911a78cd40dd22b5ae5be8746a09bc7ae"
+      "filename": "SEEKER-0.4.0-beta.12-x64.exe",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.12/SEEKER-0.4.0-beta.12-x64.exe",
+      "sha256": "4f0cdf669a5add92655e70c232ac821652eb9b1defb82ba5fdfd122eac077ad4"
     }
   },
-  "signature": "zczDerjwyVB0YDPE5oioyZjE/zUdC1ADbB8Mh5F03iviHO8P5mKt5SnGaRbX5emOCwqn1PDmuRdD/YQOT/66Bg=="
+  "signature": "OR6XSB+mnp3bnA39iREvE6zRDD7BoQsypCga7f0YYxVTTI0DZzUiZ5NYCwyCqvaKdxbN/mNoOjFyKyygrBK/Cw=="
 }
