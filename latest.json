@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
   "product": "SEEKER",
-  "latestVersion": "0.4.0-beta.10",
+  "latestVersion": "0.4.0-beta.11",
   "minimumSupportedVersion": "0.4.0-beta.6",
-  "releaseNotes": "Reply rules: choose which emails get which reply, with which attachments.\n\n- New Reply rules page. Each rule: words to look for and to skip, mailbox, work arrangement, a saved response, the files to attach, and Ask me first or Auto-send. Rules run top to bottom; the first match wins.\n- Saved responses with fill-ins ({first_name}, {role}, {my_name}, {background}, {remote_question}, …) and a live preview.\n- Attachments (formerly Resume library) holds resumes and documents such as articles or case studies; a reply can carry up to five files, sent with their own names.\n- \"Test against the last 30 days\" shows which recent recruiter emails a rule would answer before you save it.\n- Your previous template, target words, resume, and automatic mode became your first rules, so nothing changes until you edit them.\n- Safety stops still apply to every rule: job alerts, existing conversations, interviews, and identity-document requests always wait for you.\n- iPhone: the app no longer zooms when you pinch or type in a field.",
-  "releaseNotesUrl": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/tag/v0.4.0-beta.10",
+  "releaseNotes": "AI writing with your own key (optional).\n\n- Preferences > AI writing: connect Anthropic (Claude Sonnet 5.5 recommended), OpenAI, Google Gemini, OpenRouter, Groq, or a local model with Ollama or LM Studio. Test connection checks the key and model; Refresh model list shows what your account can use.\n- Reply rules can reply with AI-written text from your instructions and profile. AI-written replies always wait for your review (no auto-send).\n- Write with AI and Improve this draft (shorter, warmer, more formal, ask about rate and remote) in every reply.\n- Keys are encrypted on this computer, one per provider, shown only as their last four characters. The recruiter's email is treated as information only, and the AI uses only facts from your profile.\n- AI features run on Mac and Windows; iPhone support comes later.",
+  "releaseNotesUrl": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/tag/v0.4.0-beta.11",
   "assets": {
     "mac-arm64": {
-      "filename": "SEEKER-0.4.0-beta.10-arm64.dmg",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.10/SEEKER-0.4.0-beta.10-arm64.dmg",
-      "sha256": "b916256893de7ff1a4c6e3da08bbbcc250e76236767c6b0b601f1b3988827d52"
+      "filename": "SEEKER-0.4.0-beta.11-arm64.dmg",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.11/SEEKER-0.4.0-beta.11-arm64.dmg",
+      "sha256": "4b37ae10b2754df1495652f4dd7e0074177ef6352b130c778b65d521b13c4324"
     },
     "mac-x64": {
-      "filename": "SEEKER-0.4.0-beta.10-x64.dmg",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.10/SEEKER-0.4.0-beta.10-x64.dmg",
-      "sha256": "0c3820de5277268671d839ac050bf7955dbad60b2a61e69f7081f24ac91f2679"
+      "filename": "SEEKER-0.4.0-beta.11-x64.dmg",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.11/SEEKER-0.4.0-beta.11-x64.dmg",
+      "sha256": "aba64ade02daade775038b998a0bb8e9914ae29e65179b78fc015a5064a8c1ec"
     },
     "windows-x64": {
-      "filename": "SEEKER-0.4.0-beta.10-x64.exe",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.10/SEEKER-0.4.0-beta.10-x64.exe",
-      "sha256": "89e53c8f471f13d27a0f0ad7d157fb46fb9f996b987162ac6be928061c04e3af"
+      "filename": "SEEKER-0.4.0-beta.11-x64.exe",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.11/SEEKER-0.4.0-beta.11-x64.exe",
+      "sha256": "34e9c35c4f78b186ab26ae05dbe421c911a78cd40dd22b5ae5be8746a09bc7ae"
     }
   },
-  "signature": "HnR1TArEV+R5ox4msspGvXwDRJkod+vhiKPyiOSdWtnAu0fOGb4GWVc99wUMVlEfohbnGLPq534rB2axV174Ag=="
+  "signature": "zczDerjwyVB0YDPE5oioyZjE/zUdC1ADbB8Mh5F03iviHO8P5mKt5SnGaRbX5emOCwqn1PDmuRdD/YQOT/66Bg=="
 }
