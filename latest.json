@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
   "product": "SEEKER",
-  "latestVersion": "0.4.0-beta.8",
+  "latestVersion": "0.4.0-beta.9",
   "minimumSupportedVersion": "0.4.0-beta.6",
-  "releaseNotes": "Gmail sign-in and Mac install fixes (replaces 0.4.0-beta.7, which was withdrawn before release).\n\n- Gmail now always signs in as SEEKER by ACAS Tools. A mailbox connected in an early beta with your own Google client file shows \"Reconnect needed\": choose Connect Google once.\n- The Mac app is self-signed, so macOS no longer reports it as damaged. Approve the first launch with right-click > Open or System Settings > Privacy & Security > Open Anyway.",
-  "releaseNotesUrl": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/tag/v0.4.0-beta.8",
+  "releaseNotes": "Conversation tracking: see what you replied to and who answered, without opening your mail app.\n\n- The inbox is organized by stage: To answer, Waiting, They replied, Closed, and Apply on website.\n- After each reply SEEKER confirms it in the sending mailbox's Sent folder (\"In Gmail Sent\" / \"In iCloud Sent\"), or warns you if it cannot find it.\n- Every Sync checks your replied conversations. Recruiter answers move to They replied, are marked New, and show inside SEEKER as a conversation.\n- Replies you send from Gmail, Mail, or Outlook are detected and tracked too.\n- Conversations with no answer for 21 days close automatically; a later reply reopens them.\n- Sync now works with only an iCloud mailbox connected.",
+  "releaseNotesUrl": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/tag/v0.4.0-beta.9",
   "assets": {
     "mac-arm64": {
-      "filename": "SEEKER-0.4.0-beta.8-arm64.dmg",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.8/SEEKER-0.4.0-beta.8-arm64.dmg",
-      "sha256": "730d5f695f7489474d7b014dd3f51a14ea173bc18f22a880d6f41f645a29c96c"
+      "filename": "SEEKER-0.4.0-beta.9-arm64.dmg",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.9/SEEKER-0.4.0-beta.9-arm64.dmg",
+      "sha256": "3b94cbf622682ca8f5d40b18de1ff4aeeaa43e3b3c8cce79ac02f66bcb6836ce"
     },
     "mac-x64": {
-      "filename": "SEEKER-0.4.0-beta.8-x64.dmg",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.8/SEEKER-0.4.0-beta.8-x64.dmg",
-      "sha256": "885e50585b030c39ec4b6b499e6e564ffc9afd3b88eec5641e1c04313a1dfbee"
+      "filename": "SEEKER-0.4.0-beta.9-x64.dmg",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.9/SEEKER-0.4.0-beta.9-x64.dmg",
+      "sha256": "8ad04299dad97fccd6954eec2b34559333855d8554e1d58da878d1bbce721941"
     },
     "windows-x64": {
-      "filename": "SEEKER-0.4.0-beta.8-x64.exe",
-      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.8/SEEKER-0.4.0-beta.8-x64.exe",
-      "sha256": "ae9834df5abda948310c6ba1685ce2f6b4e82e3f9edc291f9b71ff19c70b833e"
+      "filename": "SEEKER-0.4.0-beta.9-x64.exe",
+      "url": "https://github.com/Autonomous-Capital-Allocation-System/SEEKER-Updates/releases/download/v0.4.0-beta.9/SEEKER-0.4.0-beta.9-x64.exe",
+      "sha256": "a75d31bb4bdb98a012de0c7e7d4f22697397a2f7447618b4559d46d61d29b955"
     }
   },
-  "signature": "W55HQmASg3EdhWZ3YqcZ+gouZatcF5gXA6ara7WBBNrSUMefP7beaRF3SF2JIncRvitrrMJhBBIn64oSwEhvDg=="
+  "signature": "qTy4/DRsgChGxnTraNOIe3PnxVzThwQP5VmdJpZEQ2skeiXcf4CGqfLgBBPAtUYDG1L5cez1t+mBvdPDGUgBDQ=="
 }
