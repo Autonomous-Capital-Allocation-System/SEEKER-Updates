@@ -1,5 +1,12 @@
 # SEEKER changelog
 
+## 0.4.0-beta.13 (2026-10-08)
+
+Conversation tracking on iPhone.
+
+- Sync now on iPhone confirms each reply in Gmail Sent, moves recruiter answers to They replied with a New badge, notices replies you wrote in Gmail, and closes conversations after 21 days of silence.
+- Reply to recruiters from the iPhone in the same Gmail thread, with the same safety checks as the desktop: no send if you already answered in Gmail, once per recruiter message, never resent automatically.
+
 ## 0.4.0-beta.12 (2026-10-08)
 
 Reply to recruiters from inside SEEKER.
